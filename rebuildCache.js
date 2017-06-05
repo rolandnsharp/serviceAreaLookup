@@ -17,7 +17,7 @@ client.keys('{lat:*', (err, result) => {
     keys.forEach((key, index) => {
 
       // pull lat and lng from the key name
-      const {lat, lng } = JSON.parse(keys[i])
+      const {lat, lng} = JSON.parse(key)
 
       // rebuild cache
       serviceAreaLookup(lat, lng, (err, serviceArea) => {
