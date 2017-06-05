@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/mocha/bin/_mocha"
+    "test": "./node_modules/mocha/bin/_mocha",
+    "rebuild": "node rebuildCache.js"
   },
   "author": "",
   "license": "ISC",
