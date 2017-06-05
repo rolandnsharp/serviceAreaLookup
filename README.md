@@ -7,3 +7,5 @@
 `npm start`
 
 `npm test`
+
+`npm rebuild` to rebuild the cache
